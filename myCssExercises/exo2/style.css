@@ -1,0 +1,50 @@
+.grid {
+    display: grid;
+}
+
+.div {
+    width: 100%;
+    height: 100px;
+}
+
+.div1 {
+    background-color: blue;
+}
+
+.div2 {
+    background-color: red;
+}
+
+.div3 {
+    background-color: yellow;
+}
+
+.div4 {
+    background-color: green;
+}
+
+.div5 {
+    background-color: orange;
+}
+
+.div6 {
+    background-color: pink;
+}
+
+@media (max-width:767px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1280px) {
+    .grid {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
