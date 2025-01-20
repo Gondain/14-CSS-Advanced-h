@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cadre {
+    background-color: black;
+    color: white;
+    width: 150px;
+    padding: 10px;
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0px;
+    position: relative;
+    transition: 0.5s;
+}
+
+.cadre:hover {
+    background-color: white;
+    color: black;
+    transition: all 1s;
+    left: 20px;
+}

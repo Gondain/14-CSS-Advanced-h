@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: gainsboro;
+}
+
+.container {
+    width: 300px;
+}
+
+.photo {
+    kk background-image: url(../../assets/mediaquery.png);
+    height: 250px;
+}
+
+.text {
+    width: 300px;
+    background-color: white;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: orange;
+}
